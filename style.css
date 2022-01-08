@@ -88,6 +88,7 @@ html{
     color: black;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* About Section */
@@ -97,6 +98,8 @@ html{
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 #pic{
     display: flex;
@@ -108,6 +111,7 @@ html{
 #intro{
     font-family: monospace;
     font-size: 20px;
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -117,6 +121,13 @@ html{
     font-size: 2rem;
     font-family: monospace;
     margin-bottom: 20px;
+}
+
+/* Strength and Weaknesses Section */
+#strength{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 /* Artwork Section */
